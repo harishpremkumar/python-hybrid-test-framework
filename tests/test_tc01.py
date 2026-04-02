@@ -2,6 +2,7 @@ import pytest
 from pytest_bdd import scenarios, then, given, when
 import sys
 import os
+import pytest
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
